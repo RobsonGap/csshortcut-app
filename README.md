@@ -1,5 +1,40 @@
 # CSShortcurt APP
 
+## Folders Structure
+
+
+    
+## Folders Structure
+
+	.
+	├── README.md
+	├── LICENSE.md
+	├── CONTRIBUTING.md
+	├── out/
+	├── src/
+	|   ├── icons/
+	|   ├── assets/
+	|   |   ├── img/
+	|   |   ├── scripts/
+	|   |   |   └── script.js
+	|   |   └── styles/
+	|   |       ├── modules/
+	|   |       └── style.styl
+	|   ├── partials/
+	|   |   ├── footer.pug
+	|   |   └── header.pug
+	|   ├── layouts/
+	|   |   └── default.pug
+	|   ├── projects.pug
+	|   └── index.pug
+	├── gulpfile.js
+	├── package.json
+	├── projects.json
+	├── .editorconfig
+	└── .gitignore
+    
+    
+
 
 
 > Projeto descolado <3
