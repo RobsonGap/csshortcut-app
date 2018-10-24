@@ -1,5 +1,36 @@
 # CSShortcurt APP
 
+> Projeto descolado <3
+
+## Run the project locally
+
+**1 -** Prepare the evironment:
+ 
+ ```sh
+ $ npm install -g gulp-cli
+```
+
+**2 -** Clone the project and install the dependecies:
+
+```sh
+$ git clone https://github.com/sshortcut/csshortcut-app.git
+$ cd csshortcut-app
+$ npm install
+```
+**3 --** Run static server and livereload:
+
+```sh
+$ gulp server
+```
+
+## Stack
+
+- Task Runner: [Gulp](http://gulpjs.com/)
+- HTML Template Engine: [Pug] (https://pugjs.org/api/getting-started.html)
+- CSS Processors: [Stylus](http://stylus-lang.com/)
+
+
+
 ## Folders Structure
 
 
