@@ -22,6 +22,7 @@
     "gulp-stylus": "^2.7.0"
   },
   "devDependencies": {
-    "gulp-connect": "^5.6.1"
+    "gulp-connect": "^5.6.1",
+    "gulp-imagemin": "^4.1.0"
   }
 }
