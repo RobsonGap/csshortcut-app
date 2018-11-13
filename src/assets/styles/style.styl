@@ -4,11 +4,21 @@ highlight-color = #ff0066
 secondary-color = #212121
 bg-color = #333
 
+/ Box Model */
+
 * {
     box-sizing: border-box;
 }
+
 html, body {
     height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: bg-color;
 }
 
 
@@ -18,8 +28,17 @@ html, body {
 
 }
 
+.main {
+    flex: 1;    
+}
 
 
+.container-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 /* Dev mode */
