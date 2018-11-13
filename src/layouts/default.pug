@@ -38,10 +38,11 @@ html(lang="en")
         link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Roboto")
 
     body
-        include ./../partials/header.pug 
+        div.wrapper
+            include ./../partials/header.pug 
 
-    main 
-        block content
+        main 
+            block content
 
     include ./../partials/footer.pug
 
