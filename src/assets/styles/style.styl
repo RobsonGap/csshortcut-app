@@ -3,9 +3,12 @@
 highlight-color = #ff0066
 secondary-color = #212121
 bg-color = #333
+/* Dev mode */
+border()
+    border: 1px dashed #000;
 
-/ Box Model */
 
+/* Box Model */
 * {
     box-sizing: border-box;
 }
@@ -15,21 +18,40 @@ html, body {
     
 }
 
+
 body {
     display: flex;
     flex-direction: column;
     background-color: bg-color;
-}
-
-
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -40px;
-
+    font-weight: 300;
 }
 
 .main {
     flex: 1;    
+}
+
+.profile-container {
+    width: 100%;
+    max-width 500px;
+    text-align: center;
+    border()
+    color: #fff;
+
+}
+
+.profile-img {  
+    border-radius: 50%;
+    width: 100%
+    max-width 200px;
+    
+}
+
+.heading-lv1 {
+    color:#fff; 
+    font-family: 'Lobster', cursive; 
+    font-size: 42px;
+    margin: 5px;
+    
 }
 
 
@@ -41,9 +63,6 @@ body {
 }
 
 
-/* Dev mode */
-border()
-    border: 1px dashed #000;
 
 .container {
     border()

@@ -1,5 +1,6 @@
 /* Colors */
-Box Model */,
+/* Dev mode */
+/* Box Model */
 * {
   box-sizing: border-box;
 }
@@ -11,20 +12,34 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #333;
-}
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -40px;
+  font-weight: 300;
 }
 .main {
   flex: 1;
+}
+.profile-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border: 1px dashed #000;
+  color: #fff;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.heading-lv1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  margin: 5px;
 }
 .container-centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* Dev mode */
 .container {
   border: 1px dashed #000;
   width: 100%;
@@ -77,11 +92,6 @@ body {
     order: 1;
     margin: 10px 0;
   }
-}
-.profile-img {
-  vertical-align: middle;
-  border-radius: 50%;
-  margin: 5px;
 }
 .profile-text {
   margin: 5px;

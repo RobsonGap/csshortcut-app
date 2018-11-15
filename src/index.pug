@@ -1,5 +1,8 @@
 extends ./layouts/default.pug 
 
 block  content
-    main.main.container-centered
-        img(srcset= "assets/img/robson-perfil-1x.jpg 1x, assets/img/robson-perfil-2x.jpg 2x," src="assets/img/robson-perfil-2x.png")
+        main.main.container-centered
+            div.profile-container
+                img(srcset= "assets/img/robson-perfil-1x.jpg 1x, assets/img/robson-perfil-2x.jpg 2x," src="assets/img/robson-perfil-1x.png" class="profile-img" alt="Robson Perfil")
+                h1.heading-lv1 Robson Alves
+                p.paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare a nulla a cursus. Sed tempor eros a mollis luctus. Vivamus tortor eros, efficitur sed consectetur vitae, sollicitudin at erat. Nullam feugiat massa non nisi efficitur, vitae scelerisque est eleifend. Curabitur arcu ante, pharetra ac libero ac, posuere bibendum libero. Fusce ullamcorper interdum odio, at viverra eros efficitur et. Quisque vel sapien laoreet, feugiat quam ut, porttitor dui
