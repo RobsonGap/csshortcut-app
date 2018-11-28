@@ -19,7 +19,7 @@ body {
   width: 100%;
   max-width: 500px;
   text-align: center;
-  border: 1px dashed #000;
+  border: 0px dashed #000;
 }
 .profile-img {
   border-radius: 50%;
@@ -45,11 +45,8 @@ body {
   align-items: center;
   height: 100%;
 }
-.flipped {
-  height: 100%;
-}
 .container {
-  border: 1px dashed #000;
+  border: 0px dashed #000;
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
@@ -63,7 +60,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  border: 1px dashed #000;
+  border: 0px dashed #000;
 }
 @media screen and (max-width: 400px) {
   .menu {
@@ -90,7 +87,7 @@ body {
   padding: 10px;
 }
 .profile-header {
-  border: 1px dashed #000;
+  border: 0px dashed #000;
   margin-left: auto;
 }
 @media screen and (max-width: 400px) {
@@ -101,7 +98,7 @@ body {
     margin: 10px 0;
   }
 }
-.profile-header__profile-img {
+.profile-header-img {
   vertical-align: middle;
   border-radius: 50%;
   margin: 5px;
