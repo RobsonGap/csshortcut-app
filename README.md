@@ -82,4 +82,4 @@ Want to contribute? [Follow these recommendations](https://github.com/csshortcut
 
 
 ## License
-[MIT License](https://github.com/csshortcurt/csshortcut-app/blob/master/LICENSE.md) © [Afonso Pacifer](http://afonsopacifer.com/)
+[MIT License](https://github.com/csshortcurt/csshortcut-app/blob/master/LICENSE.md) © [Robson Alves](http://.com/)
