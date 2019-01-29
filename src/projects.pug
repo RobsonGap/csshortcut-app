@@ -1,12 +1,35 @@
-extends ./layouts/default.pug 
+extends ./layouts/default.pug
 
-block  content
+block content
     main.main.container
-        section.projects-list
-            h1.heading-lv1 Projects
+        div.projects
+            section.projects-list   
+                h1.heading-lv1 Projects
             
-            article.project
-                h2.project-name Project name
-                include icons/star-icon.html
-                span.project-star-count 000
-                p.project-description Descricao do projeto
+                article.project
+                        h2.project-name Project name
+                        div.project-star 
+                            include icons/star-icon.html
+                            span.project-star-count 000
+                        p.project-description Descrição
+                
+                article.project
+                        h2.project-name Project name
+                        div.project-star 
+                            include icons/star-icon.html
+                            span.project-star-count 000
+                        p.project-description Descrição
+                
+                article.project
+                        h2.project-name Project name
+                        div.project-star 
+                            include icons/star-icon.html
+                            span.project-star-count 000
+                        p.project-description Descrição
+                 
+                article.project
+                        h2.project-name Project name
+                        div.project-star 
+                            include icons/star-icon.html
+                            span.project-star-count 000
+                        p.project-description Descrição
