@@ -28,6 +28,7 @@ $ gulp server
 - Task Runner: [Gulp](http://gulpjs.com/)
 - HTML Template Engine: [Pug] (https://pugjs.org/api/getting-started.html)
 - CSS Processors: [Stylus](http://stylus-lang.com/)
+- JS Transpiler: [babel](http://https://babeljs.io//)
 
 
 
