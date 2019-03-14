@@ -2,6 +2,8 @@
 
 > Projeto descolado <3
 
+[![Build Status](https://travis-ci.com/RobsonGap/csshortcut-app.svg?branch=master)](https://travis-ci.com/RobsonGap/csshortcut-app)
+
 ## Run the project locally
 
 **1 -** Prepare the evironment:
