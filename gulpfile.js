@@ -5,6 +5,8 @@
     const imagemin = require('gulp-imagemin');
     const data = require('gulp-data');
     const babel = require('gulp-babel');
+    const lint = require('gulp-eslint');
+    
 
     gulp.task('pug', () => {
         gulp.src('./src/*.pug')
@@ -18,6 +20,14 @@
         gulp.src('./src/assets/styles/*.styl')
             .pipe(stylus())
             .pipe(gulp.dest('./out/assets/styles/'))
+            .pipe(connect.reload())
+    })
+
+ 
+    gulp.task('lint', () => {
+        gulp.src('./src/assets/scripts/*.js')
+            .pipe(lint())
+            .pipe(lint.format())
             .pipe(connect.reload())
     })
 
@@ -39,8 +49,8 @@
 
     gulp.task('watch', () => {
         gulp.watch(['./src/*.pug', './src/partials/*.pug', './src/layouts/*.pug'], ['pug'])
-        gulp.watch(['./src/assets/styles/*.styl', './src/assets/styles/modules/*.styl'], ['stylus'])
-        gulp.watch(['./src/assets/scripts/*.js'],['babel'])
+        gulp.watch(['./src/assets/styles/*.styl','./src/assets/styles/modules/*.styl'],['stylint','stylus'])
+        gulp.watch(['./src/assets/scripts/*.js'],['lint','babel'])
     })
 
     gulp.task('serve', () => {
@@ -51,5 +61,5 @@
 
     })
 
-    gulp.task('build', ['pug', 'stylus', 'imagemin','babel'])
-    gulp.task('server', ['serve','watch'])
+    gulp.task('build', ['pug','stylus','imagemin','lint','babel'])
+gulp.task('server', ['serve','watch'])

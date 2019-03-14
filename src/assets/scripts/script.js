@@ -1,1 +1,5 @@
-console.log('nodvo')
+const foo = (x) => {
+        return x
+}
+
+foo('robson')
