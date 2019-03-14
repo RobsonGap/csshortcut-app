@@ -40,7 +40,7 @@
     gulp.task('babel', () => {
         gulp.src('./src/assets/scripts/*.js')
             .pipe(babel({
-                presets: ['es2015']
+                presets: ['@babel/env']
             }))
             .pipe(gulp.dest('./out/assets/scripts/'))
             .pipe(connect.reload())

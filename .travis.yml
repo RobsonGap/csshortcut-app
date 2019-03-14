@@ -1,0 +1,8 @@
+language: node_js
+node_js: stable
+sudo: requeired
+before_script:
+npm install -g gulp-cli
+script:
+- gulp lint
+- gulp stylint
