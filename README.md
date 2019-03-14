@@ -3,6 +3,7 @@
 > Projeto descolado <3
 
 [![Build Status](https://travis-ci.com/RobsonGap/csshortcut-app.svg?branch=master)](https://travis-ci.com/RobsonGap/csshortcut-app)
+[![devDependencies Status](https://david-dm.org/csshortcut/csshortcut-app/dev-status.svg)](https://david-dm.org/csshortcut/csshortcut-app?type=dev)
 
 ## Run the project locally
 
