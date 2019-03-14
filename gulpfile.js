@@ -6,7 +6,7 @@
     const data = require('gulp-data');
     const babel = require('gulp-babel');
     const lint = require('gulp-eslint');
-    
+    const stylint = require('gulp-stylint');
 
     gulp.task('pug', () => {
         gulp.src('./src/*.pug')
@@ -23,6 +23,12 @@
             .pipe(connect.reload())
     })
 
+    gulp.task('stylint', () => {
+        gulp.src(['./src/assets/styles/*.styl','./src/assets/styles/modules/*.styl'])
+            .pipe(stylint({config: '.stylintrc'}))
+            .pipe(stylint.reporter())
+            .pipe(connect.reload())
+    })
  
     gulp.task('lint', () => {
         gulp.src('./src/assets/scripts/*.js')
@@ -61,5 +67,5 @@
 
     })
 
-    gulp.task('build', ['pug','stylus','imagemin','lint','babel'])
+    gulp.task('build', ['pug','stylint','stylus','imagemin','lint','babel'])
 gulp.task('server', ['serve','watch'])

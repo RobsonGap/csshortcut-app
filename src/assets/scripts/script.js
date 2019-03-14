@@ -2,4 +2,4 @@ const foo = (x) => {
         return x
 }
 
-foo('robson')
+foo('robson');
